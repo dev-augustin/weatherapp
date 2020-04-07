@@ -5,3 +5,5 @@
 3. Add an image to indicate sunny/rainy/cloudy/snowy. 
 
 ### Wireframe
+
+![wireframe](./weather-app/wireframe/WEATHER_APP.png)
