@@ -29,8 +29,6 @@ function App() {
               <Link to="/Saturday">Saturday</Link>  */}
            <Switch>
             <Route path='/Sunday' component={Sunday}/>
-              {/* <Sunday/> */}
-            {/* </Route> */}
             {/* <Route path='/Monday' component={Monday}>
             
             </Route>
@@ -50,6 +48,25 @@ function App() {
               <Saturday/>
             </Route> */}
            </Switch>
+            {/* <Route path='/Monday' component={Monday}>
+            
+            </Route>
+            <Route path='/Tuesday' component={Tuesday}>
+             
+            </Route>
+            <Route path='/Wednesday'>
+              <Wednesday/>
+            </Route>
+            <Route path='/Thursday'>
+              <Thursday/>
+            </Route>
+            <Route path='/Friday'>
+              <Friday/>
+            </Route>
+            <Route path='/Saturday'>
+              <Saturday/>
+            </Route>
+           </Switch> */}
            
         {/* </Switch> */}
       {/* </div> */}
