@@ -16,9 +16,58 @@ console.log(process.env.REACT_APP_API_KEY)
 
 function App() {
   return (
-    <div className="App">
-         
-    </div>
+    <Router>
+      <div>
+        {/* <ul> */}
+          {/* <li> */}
+            <Link to='/Sunday'>Sunday</Link> |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Monday'>Monday</Link> |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Tuesday'>Tuesday</Link> |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Wednesday'>Wednesday</Link> |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Thursday'>Thursday</Link>   |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Friday'>Friday</Link> |
+          {/* </li> */}
+          {/* <li> */}
+            <Link to='/Saturday'>Saturday</Link> |
+          {/* </li> */}
+        {/* </ul> */}
+
+
+        <Switch>
+            <Route path='/Sunday'>
+              <Sunday/>
+            </Route>
+            <Route path='/Monday'>
+              <Monday/>
+            </Route>
+            <Route path='/Tuesday'>
+              <Tuesday/>
+            </Route>
+            <Route path='/Wednesday'>
+              <Wednesday/>
+            </Route>
+            <Route path='/Thursday'>
+              <Thursday/>
+            </Route>
+            <Route path='/Friday'>
+              <Friday/>
+            </Route>
+            <Route path='/Saturday'>
+              <Saturday/>
+            </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
