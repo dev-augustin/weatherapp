@@ -6,4 +6,4 @@
 
 ### Wireframe
 
-![wireframe](./weather-app/wireframe/WEATHER_APP.png)
+![wireframe](./weather-app/wireframe/WeatherApp.png)
