@@ -4,13 +4,15 @@
 
 
 .navlinkstyle{
+  /* display: block; */
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-style: italic;
   color: blueviolet;
+  padding: 8px;
 }
 
-.sunday{
+.forecastResult{
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   color: blueviolet;
@@ -34,4 +36,8 @@ ul{
   margin: 0;
   padding: 0;
 
+}
+
+li{
+  display: inline;
 }
