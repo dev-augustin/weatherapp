@@ -20,9 +20,11 @@ export default class Sunday extends Component {
    async getweather(){
        
     try{
-        const response= await axios.get(`http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=${API_key}`)
+        const response= await axios.get("https://api.openweathermap.org/data/2.5/forecast?q=dallas&units=metric&APPID="+API_key)
+        //http://api.openweathermap.org/data/2.5/forecast?q=dallas&units=metric&APPID=
         //const response= await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=atlanta&appid={API_key}`)
         //console.log("testVariable", testVariable);
+        console.log("response: ",response);
         console.log("response: ",response.data);
         const minTemp = response.data.list[0].main.temp_min;
         console.log("minTemp: ",minTemp)
@@ -45,7 +47,7 @@ export default class Sunday extends Component {
         }
         componentDidMount(){
             this.getweather();
-            console.log("api inside didMount: ",API_key);
+            console.log(API_key);
         }
             render() {
                 return (
