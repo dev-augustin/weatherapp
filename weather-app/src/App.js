@@ -19,15 +19,37 @@ function App() {
       <Router>
            
                <Weather/>
-               <nav>
-               <Link className="navlinkstyle" to="/Sunday">Sunday</Link>  
-               <Link className="navlinkstyle" to="/Monday">Monday</Link>   
-               <Link className="navlinkstyle" to="/Tuesday">Tuesday</Link>  
-               <Link className="navlinkstyle" to="/Wednesday">Wednesday</Link> 
-               <Link className="navlinkstyle" to="/Thursday">Thursday</Link> 
-               <Link className="navlinkstyle" to="/Friday">Friday</Link> 
-               <Link className="navlinkstyle" to="/Saturday">Saturday</Link> 
+               <nav className="navstyle">
+                 <ul>
+                   <li>
+                     <Link className="navlinkstyle" to="/Sunday">Sunday</Link>  
+                   </li>
+                   <li>
+                     <Link className="navlinkstyle" to="/Monday">Monday</Link>  
+                   </li>
+                   <li>
+                     <Link className="navlinkstyle" to="/Tuesday">Tuesday</Link>  
+                   </li>
+                   <li>
+                     <Link className="navlinkstyle" to="/Wednesday">Wednesday</Link> 
+                   </li>
+                   <li>
+                     <Link className="navlinkstyle" to="/Thursday">Thursday</Link> 
+                   </li>
+                   <li>
+                     <Link className="navlinkstyle" to="/Friday">Friday</Link> 
+                   </li>
+                   <li>
+                    <Link className="navlinkstyle" to="/Saturday">Saturday</Link> 
+                   </li>
+                 </ul>
                </nav>
+              
+               
+ 
+     
+              
+               
               
               {/* <Link to="/Sunday">Sunday</Link>  |
               <Link to="/Monday">Monday</Link>   |
