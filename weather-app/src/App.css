@@ -22,9 +22,16 @@
   color: brown;
 }
 
-.weatherHeading{
+#weatherHeading{
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   color: brown;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 }
