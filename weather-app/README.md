@@ -1,3 +1,15 @@
+### Objective
+
+1. Create a weather app using React 
+2. Display a 7-day weather forecast, where each day shows the high and low temperatures, 
+3. Add an image to indicate sunny/rainy/cloudy/snowy. 
+
+### Wireframe
+
+![wireframe](./wireframe/WeatherApp.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
