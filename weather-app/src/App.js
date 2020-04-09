@@ -5,12 +5,12 @@ import {
   BrowserRouter as Router, Switch,Route, Link
 } from "react-router-dom";
 import Sunday from './components/Sunday';
-// import Monday from './components/Monday';
-// import Tuesday from './components/Tuesday';
-// import Wednesday from './components/Wednesday';
-// import Thursday from './components/Thursday';
-// import Friday from './components/Friday';
-// import Saturday from './components/Saturday';
+import Monday from './components/Monday';
+import Tuesday from './components/Tuesday';
+import Wednesday from './components/Wednesday';
+import Thursday from './components/Thursday';
+import Friday from './components/Friday';
+import Saturday from './components/Saturday';
 import Weather from './components/Weather';
  //console.log(process.env.REACT_APP_API_KEY)
 
@@ -19,9 +19,18 @@ function App() {
       <Router>
            
                <Weather/>
-         
-              <Link to="/Sunday">Sunday</Link>  |
-              {/* <Link to="/Monday">Monday</Link>   |
+               <nav>
+               <Link to="/Sunday">Sunday</Link>  
+               <Link to="/Monday">Monday</Link>   
+               <Link to="/Tuesday">Tuesday</Link>  
+               <Link to="/Wednesday">Wednesday</Link> 
+               <Link to="/Thursday">Thursday</Link> 
+               <Link to="/Friday">Friday</Link> 
+               <Link to="/Saturday">Saturday</Link> 
+               </nav>
+              
+              {/* <Link to="/Sunday">Sunday</Link>  |
+              <Link to="/Monday">Monday</Link>   |
               <Link to="/Tuesday">Tuesday</Link>  |
               <Link to="/Wednesday">Wednesday</Link> |
               <Link to="/Thursday">Thursday</Link> |
@@ -29,7 +38,7 @@ function App() {
               <Link to="/Saturday">Saturday</Link>  */}
            <Switch>
             <Route path='/Sunday' component={Sunday}/>
-            {/* <Route path='/Monday' component={Monday}>
+            <Route path='/Monday' component={Monday}>
             
             </Route>
             <Route path='/Tuesday' component={Tuesday}>
@@ -46,7 +55,7 @@ function App() {
             </Route>
             <Route path='/Saturday'>
               <Saturday/>
-            </Route> */}
+            </Route>
            </Switch>
             {/* <Route path='/Monday' component={Monday}>
             
