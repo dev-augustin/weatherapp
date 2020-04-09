@@ -20,13 +20,13 @@ function App() {
            
                <Weather/>
                <nav>
-               <Link to="/Sunday">Sunday</Link>  
-               <Link to="/Monday">Monday</Link>   
-               <Link to="/Tuesday">Tuesday</Link>  
-               <Link to="/Wednesday">Wednesday</Link> 
-               <Link to="/Thursday">Thursday</Link> 
-               <Link to="/Friday">Friday</Link> 
-               <Link to="/Saturday">Saturday</Link> 
+               <Link className="navlinkstyle" to="/Sunday">Sunday</Link>  
+               <Link className="navlinkstyle" to="/Monday">Monday</Link>   
+               <Link className="navlinkstyle" to="/Tuesday">Tuesday</Link>  
+               <Link className="navlinkstyle" to="/Wednesday">Wednesday</Link> 
+               <Link className="navlinkstyle" to="/Thursday">Thursday</Link> 
+               <Link className="navlinkstyle" to="/Friday">Friday</Link> 
+               <Link className="navlinkstyle" to="/Saturday">Saturday</Link> 
                </nav>
               
               {/* <Link to="/Sunday">Sunday</Link>  |
