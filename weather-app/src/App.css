@@ -5,7 +5,26 @@
 
 .navlinkstyle{
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   font-style: italic;
   color: blueviolet;
 }
 
+.sunday{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.dayHeading{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: brown;
+}
+
+.weatherHeading{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: brown;
+
+}
