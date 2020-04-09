@@ -52,14 +52,14 @@ export default class Saturday extends Component {
             render() {
                 return (
                     <div>
-                       <h1>Saturday</h1>
-                       <h2>
-                      City: {this.state.city}
-                       <br/> minTemp: {this.state.minTemp}
-                       <br/> maxTemp: {this.state.maxTemp}
-                          <br/> description: {this.state.description}
-                          <br/>date: {this.state.dt_txt}
-                          </h2>
+                         <h1 className="dayHeading">Saturday</h1>
+                          <h4 className="forecastResult">
+                             City: {this.state.city}
+                              <br/> minTemp: {this.state.minTemp}
+                              <br/> maxTemp: {this.state.maxTemp}
+                              <br/> description: {this.state.description}
+                              <br/>date: {this.state.dt_txt}
+                          </h4>
                     </div>
                 );
             }
