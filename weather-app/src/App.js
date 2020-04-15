@@ -62,7 +62,7 @@ fivedayForecast =() => {
   render(){
     return (
       <div>
-        <h1 style={{textAlign:"center"}}>WeatherData</h1>
+        <h1 style={{textAlign:"center"}}>WeatherData-Irving</h1>
         {/* <h4>{this.state.weatherData.map(list => list.dt_txt)}</h4>  */}
         <div className="forecast">
         
