@@ -58,7 +58,7 @@ export default class Wednesday extends Component {
                               <br/> minTemp: {this.state.minTemp}
                               <br/> maxTemp: {this.state.maxTemp}
                               <br/> description: {this.state.description}
-                              <br/>date: {this.state.dt_txt}
+                              {/* <br/>date: {this.state.dt_txt} */}
                           </h4>
                     </div>
                 );
