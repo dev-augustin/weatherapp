@@ -53,7 +53,7 @@ async getWeatherData(){
 }
 
 fivedayForecast =() => {
-  return (this.state.weatherData.map((fiveday, index) => <ul><li> <img src={`https://openweathermap.org/img/w/${fiveday.weather[0].icon}.png`}/> <br/> {fiveday.weather[0].description} <br/>  {fiveday.dt_txt}<br/> Max Temp: {fiveday.main.temp_max}  <br/> Min Temp: {fiveday.main.temp_min} <br/>
+  return (this.state.weatherData.map((fiveday, index) => <ul><li> <img src={`https://openweathermap.org/img/w/${fiveday.weather[0].icon}.png`} alt="weather description"/> <br/>  {fiveday.dt_txt}<br/> Max Temp: {fiveday.main.temp_max}  <br/> Min Temp: {fiveday.main.temp_min} <br/>  <br/> {fiveday.weather[0].description}
   </li></ul>)) ;  
 
 //Referencce: https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon//"http://openweathermap.org/img/w/" + iconcode + ".png"
