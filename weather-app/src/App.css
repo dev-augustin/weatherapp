@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  background-color: cadetblue;
+}
 
 .navlinkstyle{
   /* display: block; */
@@ -39,5 +42,16 @@ ul{
 }
 
 li{
-  display: inline;
+  display: inline-block;
+  padding:10px;
+  text-align: center;
 }
+
+.forecast{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+/* Reference: https://stackoverflow.com/questions/23506141/having-trouble-increasing-spacing-between-horizontal-menu-items-with-css */
