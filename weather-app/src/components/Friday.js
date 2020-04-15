@@ -25,7 +25,8 @@ export default class Friday extends Component {
         //const response= await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=atlanta&appid={API_key}`)
         //console.log("testVariable", testVariable);
         console.log("response: ",response);
-        console.log("response: ",response.data);
+        console.log("response.data: ",response.data);
+        console.log("data.list:", response.data.list)
         const minTemp = response.data.list[0].main.temp_min;
         console.log("minTemp: ",minTemp)
         const description = response.data.list[0].weather[0].description;
